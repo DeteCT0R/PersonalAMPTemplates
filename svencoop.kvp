@@ -1,6 +1,6 @@
 App.AdminMethod=STDIO
 App.ApplicationPort1=27015
-App.ApplicationReadyMode=RegexMatch
+App.ApplicationReadyMode=RCONConnected
 App.BaseDirectory=./svencoop/276060/
 App.CommandLineArgs=-console -ip {{$ApplicationIPBinding}} -port {{$ApplicationPort1}} {{$FormattedArgs}}
 App.CommandLineParameterDelimiter= 
@@ -14,6 +14,7 @@ App.ExitString=stop
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.RapidStartup=false
+App.RemoteAdminPort=27015
 App.RootDir=./svencoop/
 App.UpdateSource=Multi
 App.UpdateSources=[{"UpdateStageName": "SteamCMD Download","UpdateSourcePlatform": "All", "UpdateSource": "SteamCMD", "UpdateSourceData": "276060"}]
