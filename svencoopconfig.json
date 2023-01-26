@@ -1,0 +1,28 @@
+[
+    {
+        "DisplayName": "MaxPlayers",
+        "Category": "Server Settings",
+        "Description": "Server max player",
+        "Keywords": "max players",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "12",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Starting map",
+        "Category": "Server Settings",
+        "Description": "Starting Map",
+        "Keywords": "starting map",
+        "FieldName": "StartingMap",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "StartingMap",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "_server_start",
+        "EnumValues": {}
+    }
+]
